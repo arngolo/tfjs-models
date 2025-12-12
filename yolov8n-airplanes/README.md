@@ -10,7 +10,7 @@ Yolov8n tfjs model trained on Airplanes Detection Dataset from Kaggler mrcsgh (f
 <script>
 async function loadModel() {
   const model = await tf.loadLayersModel(
-    "https://cdn.jsdelivr.net/gh/<username>/<repo>/my-model/model.json"
+    "https://cdn.jsdelivr.net/gh/arngolo/tfjs-models/yolov8n-airplanes/model.json"
   );
   console.log("Model loaded!", model);
 }
