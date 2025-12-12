@@ -1,0 +1,13 @@
+description: Ultralytics best model trained on mydata.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2025-11-16T23:08:21.686517'
+version: 8.1.0
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 1024
+- 1024
+names:
+  0: airplane
